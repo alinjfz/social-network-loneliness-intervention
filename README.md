@@ -70,13 +70,7 @@ social-network-loneliness-intervention/
 ├── requirements.txt            # Python dependencies
 ├── paper/
 │   └── network_intervention_report.pdf   # Full academic report
-├── figures/                    # Output plots (generated at runtime)
-│   ├── figA_baseline_hist.png
-│   ├── figB_boxplot_deltaC.png
-│   ├── figC_trajectory.png
-│   ├── figD_edges_vs_gain.png
-│   ├── figE_lineplots.png
-│   └── figE_barplots.png
+├── figures/                    # Output plots (A–L)
 ├── data/
 │   └── README.md               # Instructions to download the dataset
 ├── .gitignore
@@ -159,13 +153,15 @@ Leskovec & McAuley, NeurIPS 2012
 
 ## Figures
 
-| Figure | Description |
-|---|---|
-| A — Baseline histogram | Clustering distribution of peripheral nodes at baseline |
-| B — Boxplot ΔC | Paired comparison of clustering gains (targeted vs random) |
-| C — Trajectory | Mean clustering of L over successive intervention rounds |
-| D — Edges vs gain | Scatterplot of edges added vs resulting clustering |
-| E — Line/bar plots | ASPL, clustering, edges, and left-behind counts per iteration |
+All figures are available in [`paper/network_intervention_report.pdf`](paper/network_intervention_report.pdf).
+
+- Clustering distribution of peripheral nodes at baseline
+- Paired comparison of clustering gains (targeted vs random)
+- Mean clustering of left-behind nodes over successive intervention rounds
+- Scatterplot of edges added vs resulting clustering gain
+- ASPL, clustering, edges, and left-behind counts per iteration
+
+![](figures/F.png)
 
 ---
 
