@@ -18,7 +18,7 @@ Social isolation disproportionately affects individuals at the periphery of netw
 | Strategy | Description |
 |---|---|
 | **Targeted Rewiring** | Connects each isolated node to the most structurally similar peer *within its own community* (ranked by Jaccard similarity) |
-| **Random Edge Addition** | Adds the same number of edges, but between randomly selected node pairs — serves as the control |
+| **Random Edge Addition** | Adds the same number of edges, but between randomly selected node pairs (serves as the control) |
 
 The primary metric is the **local clustering coefficient** of peripheral nodes — a proxy for how tightly embedded an individual is within a friend group.
 
