@@ -191,5 +191,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 **Ali Najafzadeh**
-MSc Artificial Intelligence — University of Sussex
+MSc Artificial Intelligence, University of Sussex
 [GitHub](https://github.com/alinjfz)
