@@ -142,7 +142,7 @@ Key parameters at the top of `network_intervention.py`:
 
 ## Dataset
 
-**Facebook Social Circles** — Stanford SNAP
+**Facebook Social Circles**, Stanford SNAP
 Leskovec & McAuley, NeurIPS 2012
 - Nodes: 4,039 (anonymised Facebook users)
 - Edges: 88,234 (undirected friendships)
